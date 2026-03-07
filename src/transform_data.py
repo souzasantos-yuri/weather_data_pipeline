@@ -55,13 +55,13 @@ def create_dataframe(path_name) -> pd.DataFrame:
     return df
 
 def normalize_weather_columns(df: pd.DataFrame) -> pd.DataFrame:
-    df_weather = pd.json_normalize(df['weather'].apply(lambda x: x[0]).toList())
+    df_weather = pd.json_normalize(df['weather'].apply(lambda x: x[0]).to_list())
 
     df_weather = df_weather.rename(columns={
         'id': 'weather_id',
         'main': 'weather_main',
         'description': 'weather_description',
-        'icon': 'icon_description'
+        'icon': 'weather_icon'
 
     })
 
