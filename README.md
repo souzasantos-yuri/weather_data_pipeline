@@ -1,43 +1,47 @@
 # 🌦️ Data Engineer Project — São Paulo Weather Pipeline
 
-Pipeline ETL que coleta dados meteorológicos de São Paulo em tempo real via API OpenWeatherMap, transforma com Pandas e armazena em PostgreSQL — orquestrado pelo Apache Airflow via Docker.
+End-to-end ETL pipeline that collects real-time weather data from São Paulo via the OpenWeatherMap API, transforms it with Pandas, and stores it in PostgreSQL — orchestrated by Apache Airflow via Docker.
 
 ---
 
-## 🎯 Objetivo
+## 🎯 Objective
 
-Construir um pipeline de dados completo (Extract → Transform → Load) para ingestão e armazenamento contínuo de dados climáticos da cidade de São Paulo, servindo como projeto prático de engenharia de dados.
+Build a complete data pipeline (Extract → Transform → Load) for continuous ingestion and storage of weather data from São Paulo, serving as a hands-on data engineering portfolio project.
 
 ---
 
-## 🛠️ Tecnologias
+## 🛠️ Technologies
 
-| Tecnologia | Uso |
+| Technology | Use |
 |---|---|
-| Python 3.12+ | Linguagem principal |
-| Pandas | Transformação dos dados |
-| SQLAlchemy + psycopg2 | Conexão com PostgreSQL |
-| PostgreSQL | Banco de dados de destino |
-| Apache Airflow | Orquestração do pipeline |
-| Docker / Docker Compose | Infraestrutura containerizada |
-| uv | Gerenciador de pacotes |
+| Python 3.12+ | Main language |
+| Pandas | Data transformation |
+| SQLAlchemy + psycopg2 | PostgreSQL connection |
+| PostgreSQL | Target database |
+| Apache Airflow | Pipeline orchestration |
+| Docker / Docker Compose | Containerized infrastructure |
+| uv | Package manager |
 
 ---
 
-## 🗂️ Estrutura
+## 🗂️ Structure
 
 ```
 data-engineer-project-vb/
-├── dags/               # DAGs do Airflow
-├── data/               # Dados brutos/intermediários
-├── notebooks/          # Análises exploratórias
+├── dags/               # Airflow DAGs
+├── data/               # Raw/intermediate data
+├── notebooks/          # Exploratory analysis
 ├── src/
 │   ├── extract_data.py
 │   ├── transform_data.py
 │   └── load_data.py
-├── main.py             # Entrada do pipeline
+├── main.py             # Pipeline entry point
 ├── docker-compose.yaml
 └── pyproject.toml
 ```
 
 ---
+
+## 👤 Author
+
+**Yuri Souza Santos** — [GitHub](https://github.com/souzasantos-yuri)
