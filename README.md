@@ -2,6 +2,9 @@
 
 End-to-end ETL pipeline that collects real-time weather data from São Paulo via the OpenWeatherMap API, transforms it with Pandas, and stores it in PostgreSQL — orchestrated by Apache Airflow via Docker.
 
+
+<img width="1135" height="369" alt="image" src="https://github.com/user-attachments/assets/f0dca5d8-bff1-4920-bef5-6f2a1f67241e" />
+
 ---
 
 ## 🎯 Objective
