@@ -41,7 +41,3 @@ data-engineer-project-vb/
 ```
 
 ---
-
-## 👤 Author
-
-**Yuri Souza Santos** — [GitHub](https://github.com/souzasantos-yuri)
